@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+table {
+    width: 50%;
+    min-width: 500px;
+    border-collapse: collapse;
+
+}
+
+caption {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+tr.planos {
+    background-color: rgb(85, 85, 91);
+
+}
+
+tr.planos th {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+tr.mensal {
+    background-color: rgb(238, 238, 238);
+
+}
+
+tr.mensal td {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+tr.mensal .mensalista {
+    font-size: 14px;
+}
+
+@media only screen and (max-device-width: 900px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-device-width: 900px) {
+    body {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-device-width: 700px) {
+    body {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-device-width: 500px) {
+    body {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-device-width: 300px) {
+    body {
+        width: 50px;
+    }
+}
+
